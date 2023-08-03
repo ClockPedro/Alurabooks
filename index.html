@@ -64,13 +64,58 @@
 <section class="carrosel">
         <h2 class="carrosel-titulo"> NOVOS LANÇAMENTOS</h2>
 
+        <!-- Slider main container -->
+<div class="swiper">
+
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+                <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="./img/livro1.svg" alt="livro1"></div>
+          <div class="swiper-slide"><img src="./img/livro2.svg" alt="livro2"></div>
+          <div class="swiper-slide"><img src="./img/livro3.svg" alt="livro3"></div>
+          <div class="swiper-slide"><img src="./img/livro4.svg" alt="livro4"></div>
+          <div class="swiper-slide"><img src="./img/livro5.svg" alt="livro5"></div>
+          <div class="swiper-slide"><img src="./img/livro6.svg" alt="livro6"></div>
+          <div class="swiper-slide"><img src="./img/livro7.svg" alt="livro7"></div>
+          <div class="swiper-slide"><img src="./img/livro8.svg" alt="livro8"></div>
+          <div class="swiper-slide"><img src="./img/livro9.svg" alt="livro9"></div>
+          <div class="swiper-slide"><img src="./img/livro10.svg" alt="livro10"></div>
+          <div class="swiper-slide"><img src="./img/livro11.svg" alt="livro11"></div>
+          <div class="swiper-slide"><img src="./img/livro12.svg" alt="livro12"></div>
+          <div class="swiper-slide"><img src="./img/livro13.svg" alt="livro13"></div>
+          
+          ...
+        </div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+
 
 
 
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   
+<script>
+const swiper = new Swiper('.swiper',{
+  spaceBetween: 100,
+  slidesPerView: 5,
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+});
 
+
+
+
+
+</script>
 
 
 
