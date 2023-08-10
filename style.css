@@ -110,5 +110,26 @@ padding: 1em 0 0,5em;
 .swiper-slide img{
 width: 72%;
 
+}
+.card-descricao{
+display: flex;
+justify-content: space-between;
+margin-bottom: 8px;
 
 }
+.card-botoes{
+display: flex;
+justify-content: space-between;
+
+}
+.botoes{
+display: flex;
+
+}
+.card{
+background: white;
+border-radius: 10px;
+text-align: center;
+
+}
+
