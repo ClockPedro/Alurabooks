@@ -1,8 +1,8 @@
 :root{
     --branco: #ffffff;
---cor-de-fundo:#021153fa;
+--cor-de-fundo:#005279fa;
 --laranja: #eb9b00;
---azul-degrade: linear-gradient(97.54deg, #002F52 45.49%, #326589, 165.37%);
+--azul-degrade: linear-gradient(97.54deg, #002F52 45.49%, #002F52, 165.37%);
 
 }
 body{
@@ -142,7 +142,95 @@ text-align: center;
 background-color: #ffffff;
 font-size: 30px;
 
+}
+
+.botoes-item{
+margin: 10px;
 
 
 }
 
+.descricao{
+font-size: 20px;
+
+}
+
+.botoes-ancora{
+background-color: var(--laranja);
+padding: 1em 1em;
+color: var(--branco);
+font-weight: 700;
+text-decoration: none;
+margin: 15px;
+
+}
+
+
+.topicos{
+background-color: #002F52;
+text-align: center;
+
+}
+.titulos-topicos{
+color: #EBECEE;
+font-size: 500;
+font-size: 25px;
+font-weight: 500;
+
+
+}
+.lista-topicos{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+font-weight: 300;
+padding: 1em;
+font-size: 30px;
+margin: 80p x;
+
+
+}
+.topicos-link{
+    background-color: var(--laranja);
+    color: #ffffff;
+    margin: 10px;
+    padding: 15px ;
+    font-size: 25px;
+    border-radius: 15px;
+}
+.Rodapee{
+ background-color: rgb(255, 255, 255);
+ color: black;
+ padding: 50px;
+ text-align: justify;
+}
+.contato-titulo{
+font-size: 1em;
+font-weight: 700;
+
+}
+.contato-texto{
+font-size: 1em;
+font-weight: 700;
+}
+.contato-email{
+border-radius: 24px;
+border: 1px solid black;
+padding: 1em;
+width: 25%;
+color: black;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+
+
+
+}
+.contato-email::placeholder{
+font-family: 'Times New Roman', Times, serif;
+background: url(./img/email.svg) no-repeat;
+
+
+
+
+}
